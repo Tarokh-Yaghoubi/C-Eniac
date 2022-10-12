@@ -20,6 +20,8 @@ int main()
     return 0;
 }
 
+/* the sum function */
+
 int sum(int base , int iterable)
 {
     int x;
