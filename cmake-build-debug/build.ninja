@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target CPrograms
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/cmake-bu
 
 build cmake_object_order_depends_target_CPrograms: phony || CMakeFiles/CPrograms.dir
 
-build CMakeFiles/CPrograms.dir/main.c.obj: C_COMPILER__CPrograms_Debug C$:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/main.c || cmake_object_order_depends_target_CPrograms
+build CMakeFiles/CPrograms.dir/main.c.obj: C_COMPILER__CPrograms_Debug C$:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/main.c || cmake_object_order_depends_target_CPrograms
   DEP_FILE = CMakeFiles\CPrograms.dir\main.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\CPrograms.dir
@@ -81,7 +81,7 @@ build CPrograms.exe: C_EXECUTABLE_LINKER__CPrograms_Debug CMakeFiles/CPrograms.d
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\tarokh.yaghoubi\CLionProjects\CPrograms -BC:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac -BC:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build CPrograms: phony CPrograms.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/cmake-build-debug
+# Folder: C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/cmake-build-debug
 
 build all: phony CPrograms.exe
 

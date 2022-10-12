@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/cmake-build-debug"
+			"value" : "c:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms"
+			"value" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/cmake-build-debug"
+			"value" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/cmake-build-debug"
 		},
 		{
 			"name" : "CPrograms_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms"
+			"value" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac"
 		}
 	],
 	"kind" : "cache",

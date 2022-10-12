@@ -429,8 +429,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/cmake-build-debug",
-		"source" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms"
+		"build" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/cmake-build-debug",
+		"source" : "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac"
 	},
 	"version" : 
 	{
