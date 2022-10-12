@@ -19,6 +19,8 @@ int main()
     return 0;
 }
 
+/* Power function */
+
 int power(int base /* the base number '2' - '3' */, int iterable /* the 'i' iteration*/ )
 {
     int r , g;
