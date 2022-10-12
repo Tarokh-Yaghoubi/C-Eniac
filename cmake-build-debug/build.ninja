@@ -67,6 +67,12 @@ build CMakeFiles/CPrograms.dir/sum_function.c.obj: C_COMPILER__CPrograms_Debug C
   OBJECT_DIR = CMakeFiles\CPrograms.dir
   OBJECT_FILE_DIR = CMakeFiles\CPrograms.dir
 
+build CMakeFiles/CPrograms.dir/power_function.c.obj: C_COMPILER__CPrograms_Debug C$:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/power_function.c || cmake_object_order_depends_target_CPrograms
+  DEP_FILE = CMakeFiles\CPrograms.dir\power_function.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\CPrograms.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPrograms.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CPrograms
@@ -75,7 +81,7 @@ build CMakeFiles/CPrograms.dir/sum_function.c.obj: C_COMPILER__CPrograms_Debug C
 #############################################
 # Link the executable CPrograms.exe
 
-build CPrograms.exe: C_EXECUTABLE_LINKER__CPrograms_Debug CMakeFiles/CPrograms.dir/main.c.obj CMakeFiles/CPrograms.dir/functions.c.obj CMakeFiles/CPrograms.dir/sum_function.c.obj
+build CPrograms.exe: C_EXECUTABLE_LINKER__CPrograms_Debug CMakeFiles/CPrograms.dir/main.c.obj CMakeFiles/CPrograms.dir/functions.c.obj CMakeFiles/CPrograms.dir/sum_function.c.obj CMakeFiles/CPrograms.dir/power_function.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CPrograms.dir
