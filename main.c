@@ -6,16 +6,18 @@
 int main()
 {
     int c,  inword , counter = 0;
-    inword = NO;
+
     while ((c = getchar()) != EOF) {
         if (c == '\n' || c == '\t' || c == ' ') {
-            printf(" %d\n", counter);
-            inword = NO;
+
             counter = 0;
         }
+
         else
         {
+
             ++counter;
+            printf(" %d\n", counter);
         }
 
         if (c == '0')
