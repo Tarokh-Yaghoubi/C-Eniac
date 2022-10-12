@@ -1,40 +1,28 @@
 #include <stdio.h>
 
-/* A program to count white spaces , digits and others */
+#define YES 1
+#define NO 0
 
 int main()
 {
-    int c , i , nwhite , nother;
-
-    int ndigits[10];
-
-    nwhite = nother = 0;
-
-    for (i = 0; i < 10; ++i)
-    {
-        ndigits[i] = 0; /* [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] */
-    }
-
-    while ((c = getchar()) != EOF)
-    {
-        if (c >= '0' && c <= '9')
-        {
-            ndigits[c - '0'] += 1;  /* '0' = 30 , c = 5 -> 35 - 30 -> 5 */
-        }
-
-        else if (c == ' ' || c == '\n' || c == '\t')
-        {
-            ++nwhite;
+    int c,  inword , counter = 0;
+    inword = NO;
+    while ((c = getchar()) != EOF) {
+        if (c == '\n' || c == '\t' || c == ' ') {
+            printf(" %d\n", counter);
+            inword = NO;
+            counter = 0;
         }
         else
-            ++nother;
-    }
-    printf("Number of Digits =");
-    for (i = 0; i < 10; ++i)
-    {
-        printf(" %d", ndigits[i]);
-    }
-    printf("\nWhite Spaces : %d Others : %d\n", nwhite , nother);
+        {
+            ++counter;
+        }
 
-    return 0;
+        if (c == '0')
+        {
+            break;
+        }
+
+    }
+
 }
