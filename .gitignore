@@ -1,0 +1,9 @@
+*
+
+!.gitignore
+!.c
+!.py
+!.cpp
+!.exe
+
+!*/
