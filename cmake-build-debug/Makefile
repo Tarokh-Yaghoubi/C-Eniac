@@ -128,6 +128,30 @@ CPrograms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPrograms.dir\build.make CMakeFiles/CPrograms.dir/build
 .PHONY : CPrograms/fast
 
+OneWordPerLine.obj: OneWordPerLine.c.obj
+.PHONY : OneWordPerLine.obj
+
+# target to build an object file
+OneWordPerLine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPrograms.dir\build.make CMakeFiles/CPrograms.dir/OneWordPerLine.c.obj
+.PHONY : OneWordPerLine.c.obj
+
+OneWordPerLine.i: OneWordPerLine.c.i
+.PHONY : OneWordPerLine.i
+
+# target to preprocess a source file
+OneWordPerLine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPrograms.dir\build.make CMakeFiles/CPrograms.dir/OneWordPerLine.c.i
+.PHONY : OneWordPerLine.c.i
+
+OneWordPerLine.s: OneWordPerLine.c.s
+.PHONY : OneWordPerLine.s
+
+# target to generate assembly for a file
+OneWordPerLine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPrograms.dir\build.make CMakeFiles/CPrograms.dir/OneWordPerLine.c.s
+.PHONY : OneWordPerLine.c.s
+
 fahr_to_cel_functional.obj: fahr_to_cel_functional.c.obj
 .PHONY : fahr_to_cel_functional.obj
 
@@ -257,6 +281,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPrograms
+	@echo ... OneWordPerLine.obj
+	@echo ... OneWordPerLine.i
+	@echo ... OneWordPerLine.s
 	@echo ... fahr_to_cel_functional.obj
 	@echo ... fahr_to_cel_functional.i
 	@echo ... fahr_to_cel_functional.s

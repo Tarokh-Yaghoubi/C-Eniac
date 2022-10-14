@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CPrograms.dir/OneWordPerLine.c.obj"
+  "CMakeFiles/CPrograms.dir/OneWordPerLine.c.obj.d"
   "CMakeFiles/CPrograms.dir/fahr_to_cel_functional.c.obj"
   "CMakeFiles/CPrograms.dir/fahr_to_cel_functional.c.obj.d"
   "CMakeFiles/CPrograms.dir/functions.c.obj"

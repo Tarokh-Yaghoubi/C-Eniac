@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/10/CLionProjects/CProgram/C-Eniac/OneWordPerLine.c">
+			<Option target="CPrograms"/>
+		</Unit>
 		<Unit filename="C:/Users/10/CLionProjects/CProgram/C-Eniac/fahr_to_cel_functional.c">
 			<Option target="CPrograms"/>
 		</Unit>
