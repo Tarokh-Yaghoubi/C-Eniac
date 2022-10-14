@@ -1,3 +1,0 @@
-C:/Users/10/CLionProjects/CProgram/C-Eniac/cmake-build-debug/CMakeFiles/CPrograms.dir
-C:/Users/10/CLionProjects/CProgram/C-Eniac/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/10/CLionProjects/CProgram/C-Eniac/cmake-build-debug/CMakeFiles/rebuild_cache.dir
