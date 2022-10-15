@@ -8,15 +8,15 @@
 
 int main()
 {
-    int  c;
+    int c;
 
     while ((c = getchar()) != EOF && c != CTRL('d'))
     {
-        if (c == ' ' || c == '\n' || c == '\t' || c == '-')
+        if (c == ' ' || c == '\t' || c == '\n' || c == '-' || c == '.')
         {
             putchar('\n');
 
-            while ((c = getchar()) == ' ' || c == '\n' || c == '\t' || c == '-');
+            while ((c = getchar()) == ' ' || c == '\n' || c == '\t' || c == '-' || c == '.');
         }
         putchar(c);
     }
