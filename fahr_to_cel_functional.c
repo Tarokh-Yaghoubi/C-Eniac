@@ -10,8 +10,8 @@
 
 /* Conversion of Fahrenheit to Celsius and Vice Versa in C programming (functional) */
 
-void fahrtocel(void);
-void celtofahr(void);
+void fahrtocel(void); // Decleration or Function prototype
+void celtofahr(void); // Decleration or Function prototype
 
 int main(void)
 {
@@ -59,3 +59,21 @@ void celtofahr(void)
     }
 }
 
+/*
+ *  < FUNCTIONS IN C PROGRAMMING (OLD-STYLE) >
+ *
+ *  old-dtyle version of function decleration in C programming
+ *  power(base , n)
+ *  int base , n;
+ *  {
+ *      int i , p;
+ *
+ *      p = 1;
+ *      for (i = 1; i <= n; ++i)
+ *      {
+ *          p = p * base;
+ *      }
+ *
+ *      return p;
+ * }
+ * */
