@@ -8,5 +8,5 @@ C programs i have developed in Eniac-Tech
 <h4>C is used for embedded programming , database programming , OS Programming , Core-Board Programming , point of sails machine programming <br / > Pentest and so on !</h4>
 <h4>C is a mother language - many languages had been developed in C . for example Python - the most popular in 2022</h4>
 <h4>C is the language of UNIX Operating System </h4>
-<h4>C is completely portable , You can compile the C code in almost every machine !</h4>
+<h4>C is completely portable , You can compile the C code in almost every OS-Type !</h4>
 <h4>C is flexible</h4>
