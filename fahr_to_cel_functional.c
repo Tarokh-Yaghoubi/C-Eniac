@@ -8,32 +8,45 @@
 #define UPPER 300
 #define STEP 20
 
-void celtofahr(void);
+/* Conversion of Fahrenheit to Celsius and Vice Versa in C programming (functional) */
+
 void fahrtocel(void);
+void celtofahr(void);
 
 int main(void)
 {
     int c;
 
-
-    printf("Temperature Conversion Program : \n");
-    printf("1 - Celsius to Fahrenheit : \n");
-    printf("2 - Fahrenheit to Celsius : \n");
-    printf("Type in your choice : \n");
+    printf("Temperature Conversion : \n");
+    printf("1 - Fahrenheit to Celsius \n");
+    printf("2 - Celsius to Fahrenheit : \n");
+    printf("Type in your Choice : ... ");
 
     c = getchar();
 
     if (c == '1')
     {
-        celtofahr();
+        fahrtocel();
     }
     else if (c == '2')
     {
-        fahrtocel();
+        celtofahr();
     }
-    else
-        printf("Invalid Choice !\n");
 
+    else
+        printf("Invalid choice ! \n");
+
+    return 0;
+}
+
+void fahrtocel(void)
+{
+    float fahr;
+
+    for (fahr = LOWER; fahr <= UPPER; fahr += STEP)
+    {
+        printf("%4.0f %6.1f \n", fahr , (5.0/9.0) * (fahr - 32.0));
+    }
 }
 
 void celtofahr(void)
@@ -42,14 +55,7 @@ void celtofahr(void)
 
     for (cel = LOWER; cel <= UPPER; cel += STEP)
     {
-        printf("%4.0f %6.1f \n", cel , (9.0 * cel) / 5.0 + 32);
+        printf("%4.0f %6.1f \n" , cel , (cel * (9.0/5.0) + 32.0));
     }
 }
 
-void fahrtocel(void)
-{
-    float fahr;
-
-    for (fahr = LOWER; fahr <= UPPER; fahr += STEP)
-        printf("%4.0f %6.1f \n", fahr , (5.0 / 9.0) * (fahr - 32.0));
-}
