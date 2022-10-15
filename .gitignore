@@ -1,9 +1,2 @@
-*
-
-!.gitignore
-!.c
-!.py
-!.cpp
-!.exe
-!.txt
-!*/
+.xml
+.name
