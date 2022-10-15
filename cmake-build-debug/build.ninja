@@ -91,6 +91,18 @@ build CMakeFiles/C_Eniac.dir/maxline.c.obj: C_COMPILER__C_Eniac_Debug C$:/Users/
   OBJECT_DIR = CMakeFiles\C_Eniac.dir
   OBJECT_FILE_DIR = CMakeFiles\C_Eniac.dir
 
+build CMakeFiles/C_Eniac.dir/EOFValue.c.obj: C_COMPILER__C_Eniac_Debug C$:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/EOFValue.c || cmake_object_order_depends_target_C_Eniac
+  DEP_FILE = CMakeFiles\C_Eniac.dir\EOFValue.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\C_Eniac.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_Eniac.dir
+
+build CMakeFiles/C_Eniac.dir/reverse.c.obj: C_COMPILER__C_Eniac_Debug C$:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/reverse.c || cmake_object_order_depends_target_C_Eniac
+  DEP_FILE = CMakeFiles\C_Eniac.dir\reverse.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\C_Eniac.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_Eniac.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C_Eniac
@@ -99,7 +111,7 @@ build CMakeFiles/C_Eniac.dir/maxline.c.obj: C_COMPILER__C_Eniac_Debug C$:/Users/
 #############################################
 # Link the executable C_Eniac.exe
 
-build C_Eniac.exe: C_EXECUTABLE_LINKER__C_Eniac_Debug CMakeFiles/C_Eniac.dir/fahr_to_cel_functional.c.obj CMakeFiles/C_Eniac.dir/functions.c.obj CMakeFiles/C_Eniac.dir/main.c.obj CMakeFiles/C_Eniac.dir/OneWordPerLine.c.obj CMakeFiles/C_Eniac.dir/power_function.c.obj CMakeFiles/C_Eniac.dir/sum_function.c.obj CMakeFiles/C_Eniac.dir/maxline.c.obj
+build C_Eniac.exe: C_EXECUTABLE_LINKER__C_Eniac_Debug CMakeFiles/C_Eniac.dir/fahr_to_cel_functional.c.obj CMakeFiles/C_Eniac.dir/functions.c.obj CMakeFiles/C_Eniac.dir/main.c.obj CMakeFiles/C_Eniac.dir/OneWordPerLine.c.obj CMakeFiles/C_Eniac.dir/power_function.c.obj CMakeFiles/C_Eniac.dir/sum_function.c.obj CMakeFiles/C_Eniac.dir/maxline.c.obj CMakeFiles/C_Eniac.dir/EOFValue.c.obj CMakeFiles/C_Eniac.dir/reverse.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C_Eniac.dir
