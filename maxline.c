@@ -3,14 +3,13 @@
 //
 
 #include <stdio.h>
+
 #define MAXLINE 1000
 
-/* Function declaration */
+/* Function Declaration */
 
 int getline(char line[], int maxline);
-void copy(char to[] , char from []);
-
-/* Print the longest input line */
+void copy(char to[] , char from[]);
 
 int main()
 {
@@ -28,35 +27,33 @@ int main()
         }
     if (max > 0)
     {
-        printf(" %s", longest);
+        printf("%s", longest);
     }
     return 0;
 }
-/* writing the functions */
-int getline(char s[], int lim)
+
+int getline(char line[], int maxline)
 {
     int c , i;
 
-    for (i = 0; i < lim - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
+    for (i = 0; i < maxline - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
     {
-        s[i] = c;
+        line[i] = c;
     }
     if (c == '\n')
     {
-        s[i] = c;
+        line[i] = c;
         ++i;
     }
-    s[i] = '\0';
+    line[i] = '\0';
     return i;
 }
-
-/* copy : copy 'from' into 'to' */
 
 void copy(char to[] , char from[])
 {
     int i;
-
     i = 0;
+
     while ((to[i] = from[i]) != '\0')
         ++i;
 }
