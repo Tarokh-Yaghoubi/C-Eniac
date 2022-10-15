@@ -4,9 +4,7 @@
 
 #include <stdio.h>
 
-/* a program to calculate the sum of two numbers */
-
-int power(int n , int m); // declared the power function
+int power(int n , int m);
 
 int main()
 {
@@ -14,19 +12,22 @@ int main()
 
     for (i = 0; i < 10; ++i)
     {
-        printf("%d %d %d\n", i , power(2,  i), power(3, i));
+        printf("%d %d %d \n", i , power(2 , i) , power(3 , i));
     }
     return 0;
 }
 
-int power(int base, int iterable)
+int power(int base , int iterable)
 {
-    int p , x;
-    p = 1;
+    int a , b;
 
-    for (x = 1; x <= iterable; ++x)
+    a = 1;
+
+
+    for (b = 1; b <= iterable; ++b)
     {
-        p = p * base;
+
+        a = a * base;
     }
-    return p;
+    return a;
 }
