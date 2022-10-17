@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Eniac.dir/main.c.obj.d"
   "CMakeFiles/C_Eniac.dir/maxline.c.obj"
   "CMakeFiles/C_Eniac.dir/maxline.c.obj.d"
+  "CMakeFiles/C_Eniac.dir/maxline_extern.c.obj"
+  "CMakeFiles/C_Eniac.dir/maxline_extern.c.obj.d"
   "CMakeFiles/C_Eniac.dir/power_function.c.obj"
   "CMakeFiles/C_Eniac.dir/power_function.c.obj.d"
   "CMakeFiles/C_Eniac.dir/reverse.c.obj"

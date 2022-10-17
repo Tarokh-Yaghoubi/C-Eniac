@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/functions.c" "CMakeFiles/C_Eniac.dir/functions.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/functions.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/main.c" "CMakeFiles/C_Eniac.dir/main.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/main.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/maxline.c" "CMakeFiles/C_Eniac.dir/maxline.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/maxline.c.obj.d"
+  "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/maxline_extern.c" "CMakeFiles/C_Eniac.dir/maxline_extern.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/maxline_extern.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/power_function.c" "CMakeFiles/C_Eniac.dir/power_function.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/power_function.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/reverse.c" "CMakeFiles/C_Eniac.dir/reverse.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/reverse.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/sum_function.c" "CMakeFiles/C_Eniac.dir/sum_function.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/sum_function.c.obj.d"

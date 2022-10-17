@@ -6,55 +6,52 @@
 
 #define MAXLINE 1000
 
-/* Declaring functions */
-
-int getline(char line[], int maxline);
+int getline(char line[] , int maxline);
 void copy(char to[] , char from[]);
-
-/* main function */
 
 int main()
 {
-    int len; /* current line length */
-    int max; /* maximum all time */
-    char line[MAXLINE]; /* current input line */
+    int len; /* Current string length */
+    int max; /* Maximum all time */
+    char line[MAXLINE]; /* current line */
     char longest[MAXLINE]; /* longest line all time */
 
     max = 0;
-    while ((len = getline(line, MAXLINE)) > 0)
-    {
+
+    while ((len = getline(line , MAXLINE)) > 0)
+
         if (len > max)
         {
             max = len;
-            copy(longest , line);
+            copy(longest, line);
         }
-    }
+
     if (max > 0)
-        printf("The longest string all time :  %s" , longest);
+        printf("The longest all time is : %s" , longest);
+
     return 0;
 }
 
-int getline(char line[], int maxline)
+int getline(char line[] , int maxline)
 {
-    int character , iteration;
+    int c , i;
 
-    for (iteration = 0; iteration < maxline - 1 && (character = getchar()) != EOF && character != '\n'; ++iteration)
-        line[iteration] = character;
+    for (i = 0; i < maxline - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
+        line[i] = c;
 
-    if (character == '\n')
+    if (c == '\n')
     {
-        line[iteration] = character;
-        ++iteration;
+        line[i] = c;
+        ++i;
     }
-    line[iteration] = '\0';
-    return iteration;
+    line[i] = '\0';
+    return i;
 
 }
 
 void copy(char to[] , char from[])
 {
     int i;
-    char result[MAXLINE];
 
     i = 0;
 

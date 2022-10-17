@@ -272,6 +272,30 @@ maxline.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/maxline.c.s
 .PHONY : maxline.c.s
 
+maxline_extern.obj: maxline_extern.c.obj
+.PHONY : maxline_extern.obj
+
+# target to build an object file
+maxline_extern.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/maxline_extern.c.obj
+.PHONY : maxline_extern.c.obj
+
+maxline_extern.i: maxline_extern.c.i
+.PHONY : maxline_extern.i
+
+# target to preprocess a source file
+maxline_extern.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/maxline_extern.c.i
+.PHONY : maxline_extern.c.i
+
+maxline_extern.s: maxline_extern.c.s
+.PHONY : maxline_extern.s
+
+# target to generate assembly for a file
+maxline_extern.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/maxline_extern.c.s
+.PHONY : maxline_extern.c.s
+
 power_function.obj: power_function.c.obj
 .PHONY : power_function.obj
 
@@ -371,6 +395,9 @@ help:
 	@echo ... maxline.obj
 	@echo ... maxline.i
 	@echo ... maxline.s
+	@echo ... maxline_extern.obj
+	@echo ... maxline_extern.i
+	@echo ... maxline_extern.s
 	@echo ... power_function.obj
 	@echo ... power_function.i
 	@echo ... power_function.s
