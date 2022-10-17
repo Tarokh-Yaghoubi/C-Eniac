@@ -176,6 +176,30 @@ OneWordPerLine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/OneWordPerLine.c.s
 .PHONY : OneWordPerLine.c.s
 
+comment.obj: comment.c.obj
+.PHONY : comment.obj
+
+# target to build an object file
+comment.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/comment.c.obj
+.PHONY : comment.c.obj
+
+comment.i: comment.c.i
+.PHONY : comment.i
+
+# target to preprocess a source file
+comment.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/comment.c.i
+.PHONY : comment.c.i
+
+comment.s: comment.c.s
+.PHONY : comment.s
+
+# target to generate assembly for a file
+comment.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/comment.c.s
+.PHONY : comment.c.s
+
 fahr_to_cel_functional.obj: fahr_to_cel_functional.c.obj
 .PHONY : fahr_to_cel_functional.obj
 
@@ -383,6 +407,9 @@ help:
 	@echo ... OneWordPerLine.obj
 	@echo ... OneWordPerLine.i
 	@echo ... OneWordPerLine.s
+	@echo ... comment.obj
+	@echo ... comment.i
+	@echo ... comment.s
 	@echo ... fahr_to_cel_functional.obj
 	@echo ... fahr_to_cel_functional.i
 	@echo ... fahr_to_cel_functional.s

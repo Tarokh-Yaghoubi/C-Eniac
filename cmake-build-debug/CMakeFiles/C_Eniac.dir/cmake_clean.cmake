@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Eniac.dir/EOFValue.c.obj.d"
   "CMakeFiles/C_Eniac.dir/OneWordPerLine.c.obj"
   "CMakeFiles/C_Eniac.dir/OneWordPerLine.c.obj.d"
+  "CMakeFiles/C_Eniac.dir/comment.c.obj"
+  "CMakeFiles/C_Eniac.dir/comment.c.obj.d"
   "CMakeFiles/C_Eniac.dir/fahr_to_cel_functional.c.obj"
   "CMakeFiles/C_Eniac.dir/fahr_to_cel_functional.c.obj.d"
   "CMakeFiles/C_Eniac.dir/functions.c.obj"

@@ -13,6 +13,7 @@ int max;
 char line[MAXLINE];
 char longest[MAXLINE];
 
+
 int main()
 {
     int len;
@@ -29,6 +30,7 @@ int main()
         }
 
     if (max > 0)
+
         printf("The longest all time is : %s" , longest);
 
     return 0;

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/EOFValue.c" "CMakeFiles/C_Eniac.dir/EOFValue.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/EOFValue.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/OneWordPerLine.c" "CMakeFiles/C_Eniac.dir/OneWordPerLine.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/OneWordPerLine.c.obj.d"
+  "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/comment.c" "CMakeFiles/C_Eniac.dir/comment.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/comment.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/fahr_to_cel_functional.c" "CMakeFiles/C_Eniac.dir/fahr_to_cel_functional.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/fahr_to_cel_functional.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/functions.c" "CMakeFiles/C_Eniac.dir/functions.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/functions.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/main.c" "CMakeFiles/C_Eniac.dir/main.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/main.c.obj.d"

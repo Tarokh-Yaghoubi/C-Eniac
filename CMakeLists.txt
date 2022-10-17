@@ -9,4 +9,4 @@ add_executable(C_Eniac
         main.c
         OneWordPerLine.c
         power_function.c
-        sum_function.c maxline.c EOFValue.c reverse.c maxline_extern.c)
+        sum_function.c maxline.c EOFValue.c reverse.c maxline_extern.c comment.c)
