@@ -27,10 +27,12 @@ int main()
             max = len;
             copy();
         }
+
     if (max > 0)
-        printf("The longest all time : %s" , longest);
+        printf("The longest all time is : %s" , longest);
 
     return 0;
+
 }
 
 int getline(void)
@@ -46,14 +48,16 @@ int getline(void)
         line[i] = c;
         ++i;
     }
+
     line[i] = '\0';
     return i;
 }
 
 void copy(void)
 {
+    extern char longest[];
+    extern char line[];
     int i;
-    extern char line[] , longest[];
 
     i = 0;
 
