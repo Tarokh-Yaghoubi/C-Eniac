@@ -8,17 +8,27 @@ int main()
 {
     int number;
     int r;
-    number = 51;
 
-    while (number >= 1)
+    printf("Enter a number : ... \n");
+    scanf("%d\n", &number);
+
+
+
+    if (number <= 0)
     {
+        printf("Number cant be 0 or Negative");
+    }
+    else
 
-        r = number % 2;
-        printf("%d\n", r);
-        number /=  2;
-        // printf("%d\n", number);
+        while (number >= 1)
+        {
+
+            r = number % 2;
+            printf("%d\n", r);
+            number /=  2;
+            // printf("%d\n", number);
 
     }
 
-    return 0;
+  return 0;
 }

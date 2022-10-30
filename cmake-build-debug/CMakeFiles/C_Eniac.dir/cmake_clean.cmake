@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Eniac.dir/power_function.c.obj.d"
   "CMakeFiles/C_Eniac.dir/reverse.c.obj"
   "CMakeFiles/C_Eniac.dir/reverse.c.obj.d"
+  "CMakeFiles/C_Eniac.dir/reverse2.c.obj"
+  "CMakeFiles/C_Eniac.dir/reverse2.c.obj.d"
   "CMakeFiles/C_Eniac.dir/sum_function.c.obj"
   "CMakeFiles/C_Eniac.dir/sum_function.c.obj.d"
   "C_Eniac.exe"

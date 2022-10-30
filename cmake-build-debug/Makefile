@@ -416,6 +416,30 @@ reverse.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/reverse.c.s
 .PHONY : reverse.c.s
 
+reverse2.obj: reverse2.c.obj
+.PHONY : reverse2.obj
+
+# target to build an object file
+reverse2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/reverse2.c.obj
+.PHONY : reverse2.c.obj
+
+reverse2.i: reverse2.c.i
+.PHONY : reverse2.i
+
+# target to preprocess a source file
+reverse2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/reverse2.c.i
+.PHONY : reverse2.c.i
+
+reverse2.s: reverse2.c.s
+.PHONY : reverse2.s
+
+# target to generate assembly for a file
+reverse2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/reverse2.c.s
+.PHONY : reverse2.c.s
+
 sum_function.obj: sum_function.c.obj
 .PHONY : sum_function.obj
 
@@ -485,6 +509,9 @@ help:
 	@echo ... reverse.obj
 	@echo ... reverse.i
 	@echo ... reverse.s
+	@echo ... reverse2.obj
+	@echo ... reverse2.i
+	@echo ... reverse2.s
 	@echo ... sum_function.obj
 	@echo ... sum_function.i
 	@echo ... sum_function.s

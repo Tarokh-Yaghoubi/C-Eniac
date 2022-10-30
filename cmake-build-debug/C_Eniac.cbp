@@ -114,6 +114,9 @@
 		<Unit filename="C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/reverse.c">
 			<Option target="C_Eniac"/>
 		</Unit>
+		<Unit filename="C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/reverse2.c">
+			<Option target="C_Eniac"/>
+		</Unit>
 		<Unit filename="C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/sum_function.c">
 			<Option target="C_Eniac"/>
 		</Unit>
