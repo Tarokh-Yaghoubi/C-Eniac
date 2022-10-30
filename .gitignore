@@ -1,2 +1,4 @@
 .xml
 .name
+Makefile*
+*Makefile
