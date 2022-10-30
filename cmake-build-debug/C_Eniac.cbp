@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/DecToBin.c">
+			<Option target="C_Eniac"/>
+		</Unit>
 		<Unit filename="C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/EOFValue.c">
 			<Option target="C_Eniac"/>
 		</Unit>

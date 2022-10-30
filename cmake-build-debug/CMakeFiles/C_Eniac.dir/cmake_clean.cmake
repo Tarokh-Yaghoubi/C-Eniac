@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/C_Eniac.dir/DecToBin.c.obj"
+  "CMakeFiles/C_Eniac.dir/DecToBin.c.obj.d"
   "CMakeFiles/C_Eniac.dir/EOFValue.c.obj"
   "CMakeFiles/C_Eniac.dir/EOFValue.c.obj.d"
   "CMakeFiles/C_Eniac.dir/OneWordPerLine.c.obj"

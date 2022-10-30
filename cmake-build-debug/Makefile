@@ -128,6 +128,30 @@ C_Eniac/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/build
 .PHONY : C_Eniac/fast
 
+DecToBin.obj: DecToBin.c.obj
+.PHONY : DecToBin.obj
+
+# target to build an object file
+DecToBin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/DecToBin.c.obj
+.PHONY : DecToBin.c.obj
+
+DecToBin.i: DecToBin.c.i
+.PHONY : DecToBin.i
+
+# target to preprocess a source file
+DecToBin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/DecToBin.c.i
+.PHONY : DecToBin.c.i
+
+DecToBin.s: DecToBin.c.s
+.PHONY : DecToBin.s
+
+# target to generate assembly for a file
+DecToBin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/DecToBin.c.s
+.PHONY : DecToBin.c.s
+
 EOFValue.obj: EOFValue.c.obj
 .PHONY : EOFValue.obj
 
@@ -425,6 +449,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C_Eniac
+	@echo ... DecToBin.obj
+	@echo ... DecToBin.i
+	@echo ... DecToBin.s
 	@echo ... EOFValue.obj
 	@echo ... EOFValue.i
 	@echo ... EOFValue.s

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/DecToBin.c" "CMakeFiles/C_Eniac.dir/DecToBin.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/DecToBin.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/EOFValue.c" "CMakeFiles/C_Eniac.dir/EOFValue.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/EOFValue.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/OneWordPerLine.c" "CMakeFiles/C_Eniac.dir/OneWordPerLine.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/OneWordPerLine.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/chapter_two.c" "CMakeFiles/C_Eniac.dir/chapter_two.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/chapter_two.c.obj.d"
