@@ -176,6 +176,30 @@ OneWordPerLine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/OneWordPerLine.c.s
 .PHONY : OneWordPerLine.c.s
 
+chapter_two.obj: chapter_two.c.obj
+.PHONY : chapter_two.obj
+
+# target to build an object file
+chapter_two.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/chapter_two.c.obj
+.PHONY : chapter_two.c.obj
+
+chapter_two.i: chapter_two.c.i
+.PHONY : chapter_two.i
+
+# target to preprocess a source file
+chapter_two.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/chapter_two.c.i
+.PHONY : chapter_two.c.i
+
+chapter_two.s: chapter_two.c.s
+.PHONY : chapter_two.s
+
+# target to generate assembly for a file
+chapter_two.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/chapter_two.c.s
+.PHONY : chapter_two.c.s
+
 comment.obj: comment.c.obj
 .PHONY : comment.obj
 
@@ -407,6 +431,9 @@ help:
 	@echo ... OneWordPerLine.obj
 	@echo ... OneWordPerLine.i
 	@echo ... OneWordPerLine.s
+	@echo ... chapter_two.obj
+	@echo ... chapter_two.i
+	@echo ... chapter_two.s
 	@echo ... comment.obj
 	@echo ... comment.i
 	@echo ... comment.s
