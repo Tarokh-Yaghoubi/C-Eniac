@@ -200,6 +200,30 @@ OneWordPerLine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/OneWordPerLine.c.s
 .PHONY : OneWordPerLine.c.s
 
+atoi.obj: atoi.c.obj
+.PHONY : atoi.obj
+
+# target to build an object file
+atoi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/atoi.c.obj
+.PHONY : atoi.c.obj
+
+atoi.i: atoi.c.i
+.PHONY : atoi.i
+
+# target to preprocess a source file
+atoi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/atoi.c.i
+.PHONY : atoi.c.i
+
+atoi.s: atoi.c.s
+.PHONY : atoi.s
+
+# target to generate assembly for a file
+atoi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/atoi.c.s
+.PHONY : atoi.c.s
+
 chapter_two.obj: chapter_two.c.obj
 .PHONY : chapter_two.obj
 
@@ -295,6 +319,30 @@ functions.s: functions.c.s
 functions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/functions.c.s
 .PHONY : functions.c.s
+
+lower.obj: lower.c.obj
+.PHONY : lower.obj
+
+# target to build an object file
+lower.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/lower.c.obj
+.PHONY : lower.c.obj
+
+lower.i: lower.c.i
+.PHONY : lower.i
+
+# target to preprocess a source file
+lower.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/lower.c.i
+.PHONY : lower.c.i
+
+lower.s: lower.c.s
+.PHONY : lower.s
+
+# target to generate assembly for a file
+lower.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/lower.c.s
+.PHONY : lower.c.s
 
 main.obj: main.c.obj
 .PHONY : main.obj
@@ -464,6 +512,30 @@ sum_function.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/sum_function.c.s
 .PHONY : sum_function.c.s
 
+test.obj: test.c.obj
+.PHONY : test.obj
+
+# target to build an object file
+test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/test.c.obj
+.PHONY : test.c.obj
+
+test.i: test.c.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -482,6 +554,9 @@ help:
 	@echo ... OneWordPerLine.obj
 	@echo ... OneWordPerLine.i
 	@echo ... OneWordPerLine.s
+	@echo ... atoi.obj
+	@echo ... atoi.i
+	@echo ... atoi.s
 	@echo ... chapter_two.obj
 	@echo ... chapter_two.i
 	@echo ... chapter_two.s
@@ -494,6 +569,9 @@ help:
 	@echo ... functions.obj
 	@echo ... functions.i
 	@echo ... functions.s
+	@echo ... lower.obj
+	@echo ... lower.i
+	@echo ... lower.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -515,6 +593,9 @@ help:
 	@echo ... sum_function.obj
 	@echo ... sum_function.i
 	@echo ... sum_function.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

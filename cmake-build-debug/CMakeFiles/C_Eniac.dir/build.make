@@ -264,6 +264,48 @@ CMakeFiles/C_Eniac.dir/reverse2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Eniac.dir/reverse2.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\reverse2.c -o CMakeFiles\C_Eniac.dir\reverse2.c.s
 
+CMakeFiles/C_Eniac.dir/atoi.c.obj: CMakeFiles/C_Eniac.dir/flags.make
+CMakeFiles/C_Eniac.dir/atoi.c.obj: ../atoi.c
+CMakeFiles/C_Eniac.dir/atoi.c.obj: CMakeFiles/C_Eniac.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/C_Eniac.dir/atoi.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_Eniac.dir/atoi.c.obj -MF CMakeFiles\C_Eniac.dir\atoi.c.obj.d -o CMakeFiles\C_Eniac.dir\atoi.c.obj -c C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\atoi.c
+
+CMakeFiles/C_Eniac.dir/atoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Eniac.dir/atoi.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\atoi.c > CMakeFiles\C_Eniac.dir\atoi.c.i
+
+CMakeFiles/C_Eniac.dir/atoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Eniac.dir/atoi.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\atoi.c -o CMakeFiles\C_Eniac.dir\atoi.c.s
+
+CMakeFiles/C_Eniac.dir/lower.c.obj: CMakeFiles/C_Eniac.dir/flags.make
+CMakeFiles/C_Eniac.dir/lower.c.obj: ../lower.c
+CMakeFiles/C_Eniac.dir/lower.c.obj: CMakeFiles/C_Eniac.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/C_Eniac.dir/lower.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_Eniac.dir/lower.c.obj -MF CMakeFiles\C_Eniac.dir\lower.c.obj.d -o CMakeFiles\C_Eniac.dir\lower.c.obj -c C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\lower.c
+
+CMakeFiles/C_Eniac.dir/lower.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Eniac.dir/lower.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\lower.c > CMakeFiles\C_Eniac.dir\lower.c.i
+
+CMakeFiles/C_Eniac.dir/lower.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Eniac.dir/lower.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\lower.c -o CMakeFiles\C_Eniac.dir\lower.c.s
+
+CMakeFiles/C_Eniac.dir/test.c.obj: CMakeFiles/C_Eniac.dir/flags.make
+CMakeFiles/C_Eniac.dir/test.c.obj: ../test.c
+CMakeFiles/C_Eniac.dir/test.c.obj: CMakeFiles/C_Eniac.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/C_Eniac.dir/test.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_Eniac.dir/test.c.obj -MF CMakeFiles\C_Eniac.dir\test.c.obj.d -o CMakeFiles\C_Eniac.dir\test.c.obj -c C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\test.c
+
+CMakeFiles/C_Eniac.dir/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Eniac.dir/test.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\test.c > CMakeFiles\C_Eniac.dir\test.c.i
+
+CMakeFiles/C_Eniac.dir/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Eniac.dir/test.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\test.c -o CMakeFiles\C_Eniac.dir\test.c.s
+
 # Object files for target C_Eniac
 C_Eniac_OBJECTS = \
 "CMakeFiles/C_Eniac.dir/fahr_to_cel_functional.c.obj" \
@@ -279,7 +321,10 @@ C_Eniac_OBJECTS = \
 "CMakeFiles/C_Eniac.dir/comment.c.obj" \
 "CMakeFiles/C_Eniac.dir/chapter_two.c.obj" \
 "CMakeFiles/C_Eniac.dir/DecToBin.c.obj" \
-"CMakeFiles/C_Eniac.dir/reverse2.c.obj"
+"CMakeFiles/C_Eniac.dir/reverse2.c.obj" \
+"CMakeFiles/C_Eniac.dir/atoi.c.obj" \
+"CMakeFiles/C_Eniac.dir/lower.c.obj" \
+"CMakeFiles/C_Eniac.dir/test.c.obj"
 
 # External object files for target C_Eniac
 C_Eniac_EXTERNAL_OBJECTS =
@@ -298,11 +343,14 @@ C_Eniac.exe: CMakeFiles/C_Eniac.dir/comment.c.obj
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/chapter_two.c.obj
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/DecToBin.c.obj
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/reverse2.c.obj
+C_Eniac.exe: CMakeFiles/C_Eniac.dir/atoi.c.obj
+C_Eniac.exe: CMakeFiles/C_Eniac.dir/lower.c.obj
+C_Eniac.exe: CMakeFiles/C_Eniac.dir/test.c.obj
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/build.make
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/linklibs.rsp
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/objects1.rsp
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable C_Eniac.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable C_Eniac.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\C_Eniac.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

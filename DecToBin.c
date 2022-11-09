@@ -28,6 +28,7 @@ int main()
             printf("%d\n", r);
             number /=  2;
 
+<<<<<<< HEAD
             // printf("%d\n", number);
         
         }
@@ -35,3 +36,10 @@ int main()
 
   return 0;
 }
+=======
+         }
+
+  return 0;
+}
+
+>>>>>>> 76387f1f9b478d7015deed37e8a9bde7d5ddcc76
