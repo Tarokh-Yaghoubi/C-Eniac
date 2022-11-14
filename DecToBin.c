@@ -4,10 +4,10 @@
 
 #include <stdio.h>
 
+
 int main()
 {
-    int number;
-    int r;
+    int number, r;
 
     printf("Enter a number : ... \n");
     scanf("%d\n", &number);
@@ -23,13 +23,23 @@ int main()
         while (number >= 1)
         {
 
+
             r = number % 2;
             printf("%d\n", r);
             number /=  2;
-            // printf("%d\n", number);
 
+<<<<<<< HEAD
+            // printf("%d\n", number);
+        
+        }
+
+
+  return 0;
+}
+=======
          }
 
   return 0;
 }
 
+>>>>>>> 76387f1f9b478d7015deed37e8a9bde7d5ddcc76
