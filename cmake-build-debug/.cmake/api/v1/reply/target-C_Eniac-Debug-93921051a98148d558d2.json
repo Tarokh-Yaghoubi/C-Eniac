@@ -229,7 +229,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test.c",
+			"path" : "testfile.c",
 			"sourceGroupIndex" : 0
 		}
 	],

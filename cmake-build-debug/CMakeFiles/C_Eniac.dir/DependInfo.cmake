@@ -24,7 +24,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/reverse.c" "CMakeFiles/C_Eniac.dir/reverse.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/reverse.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/reverse2.c" "CMakeFiles/C_Eniac.dir/reverse2.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/reverse2.c.obj.d"
   "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/sum_function.c" "CMakeFiles/C_Eniac.dir/sum_function.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/sum_function.c.obj.d"
-  "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/test.c" "CMakeFiles/C_Eniac.dir/test.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/test.c.obj.d"
+  "C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/testfile.c" "CMakeFiles/C_Eniac.dir/testfile.c.obj" "gcc" "CMakeFiles/C_Eniac.dir/testfile.c.obj.d"
   )
 
 # Targets to which this target links.

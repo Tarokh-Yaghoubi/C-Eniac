@@ -512,29 +512,29 @@ sum_function.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/sum_function.c.s
 .PHONY : sum_function.c.s
 
-test.obj: test.c.obj
-.PHONY : test.obj
+testfile.obj: testfile.c.obj
+.PHONY : testfile.obj
 
 # target to build an object file
-test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/test.c.obj
-.PHONY : test.c.obj
+testfile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/testfile.c.obj
+.PHONY : testfile.c.obj
 
-test.i: test.c.i
-.PHONY : test.i
+testfile.i: testfile.c.i
+.PHONY : testfile.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/test.c.i
-.PHONY : test.c.i
+testfile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/testfile.c.i
+.PHONY : testfile.c.i
 
-test.s: test.c.s
-.PHONY : test.s
+testfile.s: testfile.c.s
+.PHONY : testfile.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/test.c.s
-.PHONY : test.c.s
+testfile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Eniac.dir\build.make CMakeFiles/C_Eniac.dir/testfile.c.s
+.PHONY : testfile.c.s
 
 # Help Target
 help:
@@ -593,9 +593,9 @@ help:
 	@echo ... sum_function.obj
 	@echo ... sum_function.i
 	@echo ... sum_function.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... testfile.obj
+	@echo ... testfile.i
+	@echo ... testfile.s
 .PHONY : help
 
 

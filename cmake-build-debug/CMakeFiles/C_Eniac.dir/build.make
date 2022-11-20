@@ -292,19 +292,19 @@ CMakeFiles/C_Eniac.dir/lower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Eniac.dir/lower.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\lower.c -o CMakeFiles\C_Eniac.dir\lower.c.s
 
-CMakeFiles/C_Eniac.dir/test.c.obj: CMakeFiles/C_Eniac.dir/flags.make
-CMakeFiles/C_Eniac.dir/test.c.obj: ../test.c
-CMakeFiles/C_Eniac.dir/test.c.obj: CMakeFiles/C_Eniac.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/C_Eniac.dir/test.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_Eniac.dir/test.c.obj -MF CMakeFiles\C_Eniac.dir\test.c.obj.d -o CMakeFiles\C_Eniac.dir\test.c.obj -c C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\test.c
+CMakeFiles/C_Eniac.dir/testfile.c.obj: CMakeFiles/C_Eniac.dir/flags.make
+CMakeFiles/C_Eniac.dir/testfile.c.obj: ../testfile.c
+CMakeFiles/C_Eniac.dir/testfile.c.obj: CMakeFiles/C_Eniac.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/C_Eniac.dir/testfile.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_Eniac.dir/testfile.c.obj -MF CMakeFiles\C_Eniac.dir\testfile.c.obj.d -o CMakeFiles\C_Eniac.dir\testfile.c.obj -c C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\testfile.c
 
-CMakeFiles/C_Eniac.dir/test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Eniac.dir/test.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\test.c > CMakeFiles\C_Eniac.dir\test.c.i
+CMakeFiles/C_Eniac.dir/testfile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Eniac.dir/testfile.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\testfile.c > CMakeFiles\C_Eniac.dir\testfile.c.i
 
-CMakeFiles/C_Eniac.dir/test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Eniac.dir/test.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\test.c -o CMakeFiles\C_Eniac.dir\test.c.s
+CMakeFiles/C_Eniac.dir/testfile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Eniac.dir/testfile.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tarokh.yaghoubi\CLionProjects\CPrograms\C-Eniac\testfile.c -o CMakeFiles\C_Eniac.dir\testfile.c.s
 
 # Object files for target C_Eniac
 C_Eniac_OBJECTS = \
@@ -324,7 +324,7 @@ C_Eniac_OBJECTS = \
 "CMakeFiles/C_Eniac.dir/reverse2.c.obj" \
 "CMakeFiles/C_Eniac.dir/atoi.c.obj" \
 "CMakeFiles/C_Eniac.dir/lower.c.obj" \
-"CMakeFiles/C_Eniac.dir/test.c.obj"
+"CMakeFiles/C_Eniac.dir/testfile.c.obj"
 
 # External object files for target C_Eniac
 C_Eniac_EXTERNAL_OBJECTS =
@@ -345,7 +345,7 @@ C_Eniac.exe: CMakeFiles/C_Eniac.dir/DecToBin.c.obj
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/reverse2.c.obj
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/atoi.c.obj
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/lower.c.obj
-C_Eniac.exe: CMakeFiles/C_Eniac.dir/test.c.obj
+C_Eniac.exe: CMakeFiles/C_Eniac.dir/testfile.c.obj
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/build.make
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/linklibs.rsp
 C_Eniac.exe: CMakeFiles/C_Eniac.dir/objects1.rsp
