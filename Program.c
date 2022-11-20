@@ -68,18 +68,3 @@ void change_index(int x[10], int first_index, int second_index)
 		printf(" %d\n", x[i]);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
