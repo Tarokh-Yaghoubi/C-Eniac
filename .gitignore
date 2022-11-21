@@ -1,4 +1,7 @@
 .xml
 .name
-Makefile*
-*Makefile
+Makefile
+Makefile
+
+CMakeLists.txt
+cmake-build-debug/
