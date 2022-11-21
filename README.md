@@ -1,5 +1,5 @@
 # C-Eniac
-C programs i have developed in Eniac-Tech
+My Very-First C programs 
 
 # What is C programming Used for ? 
 
