@@ -1,42 +1,33 @@
 #include <stdio.h>
 
-int binsearch(int x, int v[], int n);
+int myxor(int arr[], int len);
 
 int main()
 {
-	/*
-	int n = 32;
-	int p;
 
-	int z = (n) ? 1 : 0;
-	int o = (!p) ? 0 : 1;
+	int n[5] = {11, 12, 13, 15, 16};
 
-	printf("%d\n", z);
-	printf("%d\n", o);
-
-	return 0; */
-
+	myxor(n, 5);
+	
+	return 0;
 }
 
 
-int binsearch(int x, int v[], int n)
+int myxor(int arr[], int len)
 {
-	int low, mid, high;
+	int i, ans;
 
-	high = n - 1;
+	ans = arr[0] ^ arr[1];
+	
+	if (len == 0)
+		printf("%d\n", 0);
+	if (len == 1)
+		printf("%d\n", 1);
 
-	while (low <= high)
-	{
-		mid = (low + high) / 2;
+	for (i = 2; i < len; ++i)
+		ans = ans ^ arr[i];
 
-		if (x < v[mid])
-			high = mid + 1;
-		else if (x > v[mid])
-			low = mid + 1;
+	printf("%d\t\n", ans);
 
-		else
-			return mid;
-
-	}
-	return -1; /* NO MATCHES */
+	return 0;
 }
