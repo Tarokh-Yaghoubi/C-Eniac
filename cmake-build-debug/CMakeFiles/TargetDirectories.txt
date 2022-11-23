@@ -1,3 +1,0 @@
-C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/cmake-build-debug/CMakeFiles/C_Eniac.dir
-C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/tarokh.yaghoubi/CLionProjects/CPrograms/C-Eniac/cmake-build-debug/CMakeFiles/rebuild_cache.dir
