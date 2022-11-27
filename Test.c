@@ -1,33 +1,60 @@
 #include <stdio.h>
 
-int myxor(int arr[], int len);
+#define MAXLINE 1000 /* max input line length */
+
+int getline(char line[], int max);
+int strindex(char source[], char searchfor[]);
+
+char pattern[] = "ould"; /* pattern to search for */
+
+/* find all lines matching pattern */
 
 int main()
 {
+	char line[MAXLINE];
+	int found = 0;
 
-	int n[5] = {11, 12, 13, 15, 16};
+	while (getline(line, MAXLINE) > 0)
+		if (strindex(line, pattern) >= 0)
+		{
+			printf("%s", line);
+			found++;
+		}
 
-	myxor(n, 5);
-	
-	return 0;
+	return found;
+}
+
+/* getline : getline into s , return length */
+
+int getline(char line[], int max)
+{
+	int c, i;
+
+	i = 0;
+	while (--max > 0 && (c = getchar()) != EOF && c != '\n')
+		line[i++] = c;
+
+	if (c == '\n')
+		line[i++] = c;
+
+	line[i] = '\0';
+	return i;
 }
 
 
-int myxor(int arr[], int len)
+/* strindex : return index of t in s , -1 if none */
+int strindex(char source[], char searchfor[])
 {
-	int i, ans;
+	int i, j, k;
 
-	ans = arr[0] ^ arr[1];
-	
-	if (len == 0)
-		printf("%d\n", 0);
-	if (len == 1)
-		printf("%d\n", 1);
+	for (i = 0; source[i] != '\0'; i++) {
+		for (j = i, k = 0; searchfor[k] != '\0' && source[j] == searchfor[k]; j++, k++)
+			;
 
-	for (i = 2; i < len; ++i)
-		ans = ans ^ arr[i];
+		if (k > 0 && searchfor[k] == '\0')
+			return i;
+	}
 
-	printf("%d\t\n", ans);
+	return -1;
 
-	return 0;
 }
