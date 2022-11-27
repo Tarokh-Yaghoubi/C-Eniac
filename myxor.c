@@ -18,6 +18,7 @@ int myxor(int arr[], int len)
 	int i, ans;
 
 	ans = arr[0] ^ arr[1];
+
 	
 	if (len == 0)
 		printf("%d\n", 0);

@@ -15,6 +15,7 @@ int main()
 	n = &n2;
 
 
+
 	printf("The number is : %d\n", *x);
 	printf("Heres a sum : %d", (*x + *n));
 
