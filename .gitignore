@@ -2,6 +2,7 @@
 .name
 Makefile
 Makefile
-
+.vs/
+.vs
 CMakeLists.txt
 cmake-build-debug/
