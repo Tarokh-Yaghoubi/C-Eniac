@@ -8,7 +8,7 @@ int main()
 	ptr = "mmdfjgndlfjknldjkfglkjdfnhlkjdnfhdflhnldfkhjdfhndfjhdlfhnldkfj";
 
 	for (;;) {
-		sprintf(ptr, "%s%s", *ptr, *ptr);
+		sprintf(ptr, "%s%s", ptr, ptr);
 		printf("The character is : %s\n", ptr);
 	}
 
