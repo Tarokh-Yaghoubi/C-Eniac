@@ -4,5 +4,7 @@ Makefile
 Makefile
 .vs/
 .vs
+.exe
+a
 CMakeLists.txt
 cmake-build-debug/
