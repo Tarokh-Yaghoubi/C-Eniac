@@ -5,9 +5,15 @@ int main()
 
 	char* ptr;
 
-    ptr = "tarokh sdsds rqevervevqervqerv";
+	ptr = "mmdfjgndlfjknldjkfglkjdfnhlkjdnfhdflhnldfkhjdfhndfjhdlfhnldkfj";
 
-	printf("The character is : %s\n", ptr);
+	for (;;) {
+		sprintf(ptr, "%s%s", *ptr, *ptr);
+		printf("The character is : %s\n", ptr);
+	}
+
+
+	
 
 	return 0;
 }
