@@ -4,16 +4,16 @@ int main()
 {
 
 	char* ptr;
+	int size_t;
 
 	ptr = "mmdfjgndlfjknldjkfglkjdfnhlkjdnfhdflhnldfkhjdfhndfjhdlfhnldkfj";
 
 	for (;;) {
-		sprintf(ptr, "%s%s", ptr, ptr);
-		printf("The character is : %s\n", ptr);
+		printf(" for executed.");
+		size_t = sprintf(ptr, "%s%s", *ptr, *ptr);
+		printf("%c", size_t);
 	}
 
-
-	
 
 	return 0;
 }
