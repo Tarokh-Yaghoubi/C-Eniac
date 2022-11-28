@@ -2,22 +2,12 @@
 
 int main()
 {
-	int num;
-	int n2 = 1;
-	int* x;
-	int* n;
 
-	printf("Type in a number .. \n");
+	char* ptr;
 
-	scanf("%d", &num);
+    ptr = "tarokh sdsds rqevervevqervqerv";
 
-	x = &num;
-	n = &n2;
-
-
-
-	printf("The number is : %d\n", *x);
-	printf("Heres a sum : %d", (*x + *n));
+	printf("The character is : %s\n", ptr);
 
 	return 0;
 }
