@@ -1,21 +1,17 @@
 #include <stdio.h>
 #include <ctype.h>
 
-
-/* convert string to double */
+/* atof: convert string s to double */
 
 double atof(char s[])
 {
-
 	double val, power;
 	int i, sign;
 
-	i = 0;
-
-	for (i = 0; isspace(s[i]); i++)
-		;
+	for (i = 0; isspace(s[i]); i++);
 
 	sign = (s[i] == '-') ? -1 : 1;
+
 	if (s[i] == '+' || s[i] == '-')
 		i++;
 
@@ -31,4 +27,5 @@ double atof(char s[])
 		power *= 10;
 	}
 	return sign * val / power;
+
 }
