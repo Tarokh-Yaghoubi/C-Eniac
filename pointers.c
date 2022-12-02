@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main()
+void geeks(void);
+
+int main_2()
 {
 
 	char* ptr;
@@ -16,4 +18,32 @@ int main()
 
 
 	return 0;
+}
+
+int main()
+{
+	geeks();
+
+	return 0;
+
+}
+
+void geeks()
+{
+	int var = 20;
+	int x = 30;
+	int pl;
+
+	int* ptr;
+	int* jsm;
+
+	ptr = &var;
+
+	jsm = &x;
+
+	if (*ptr + *jsm == 50)
+		printf("%d\n", (*ptr + *jsm));
+	else
+		printf("not match");
+
 }
