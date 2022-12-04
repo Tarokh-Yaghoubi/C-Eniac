@@ -9,28 +9,48 @@
 |_____|___|_| \_|\___//_/\_\
 
 
-*/
-
-int max(int, int);
+ Linux is the reason software is still alive !
+|WWWWWWWWWWWWWWWWWWWx,.   .;OWWWWWWWWWWWWWWWWW|
+|WWWWWWWWWWWWWWWWXc          .dWWWWWWWWWWWWWWW|
+|WWWWWWWWWWWWWWWX.             :WWWWWWWWWWWWWW|
+|WWWWWWWWWWWWWWW;               kWWWWWWWWWWWWW|
+|WWWWWWWWWWWWWWW..od.  .xXKo    ;WWWWWWWWWWWWW|
+|WWWWWWWWWWWWWWW.xo;N  0O.'Wc   .WWWWWWWWWWWWW|
+|WWWWWWWWWWWWWWW';c.::l;:..K.   .WWWWWWWWWWWWW|
+|WWWWWWWWWWWWWWW'.ckkkkkkxll.   .WWWWWWWWWWWWW|
+|WWWWWWWWWWWWWWN .'clllllcc,     kWWWWWWWWWWWW|
+|WWWWWWWWWWWWWN'    .::,..;d.     xWWWWWWWWWWW|
+|WWWWWWWWWWWWK.   xW0xxOXMMMX      ,KWWWWWWWWW|
+|WWWWWWWWWWNl    ;MMMMMMMMMMMO       lNWWWWWWW|
+|WWWWWWWWWK. .  .WMMMMMMMMMMMMx   .   .0WWWWWW|
+|WWWWWWWWx  '  .NMMMMMMMMMMMMMMd   .    kWWWWW|
+|WWWWWWWd      XMMMMMMMMMMMMMMMMc        0WWWW|
+|WWWWWWO      OMMMMMMMMMMMMMMMMMM'       .WWWW|
+|WWWWWW.     'MMMMMMMMMMMMMMMMMMMO        0WWW|
+|WWWWWW      OMMMMMMMMMMMMMMMMMN;         KWWW|
+|WWWWWd ''   .lKMMMMMMMMMMMMMMO           KWWW|
+|WXkl.,kOOO'    .kMMMMMMMMMMMM. ;x.  .'ldl xWW|
+|o.:dOOOOOOO:     ;MMMMMMMMMMK  oOOOOOOOOOc.NW|
+|,'OOOOOOOOOOo     XMMMMMMMMMl  OOOOOOOOOOOc.k|
+|c.OOOOOOOOOOOk,  ;XMMMMMMWKo  ;OOOOOOOOOOOk, |
+| :OOOOOOOOOOOOOo    .''..     kOOOOOOOOd;',lX|
+|l.',;:lokOOOOOOO'    ....    .OOOOOOk:.c0WWWW|
+|WWWNK0kd:,',::;.,0NWWWWWWWWWK.,dxdl'.oNWWWWWW|
+|WWWWWWWWWWNOdoxNWWWWWWWWWWWWWWl.  ,kWWWWWWWWW| */
 
 int main()
 {
-	int ret;
-	int a ,b;
-	a = 10;
-	b = 11;
-	ret = max(a, b);
-	printf("The bigger number is : %d\n", ret);
+	int n[10];
+	int i, j;
+
+	for (i = 0; i < 10; i++)
+	{
+		n[i] = i + 100;
+
+	}
+
+	for (j = 0; j < 10; j++)
+		printf("Element [%d] = %d \n", j, n[j]);
+
 	return 0;
-
-}
-
-int max(int num1 , int num2)
-{
-	int result;
-
-	result = (num1 > num2) ? num1 : num2;
-
-	return result;
-
 }
