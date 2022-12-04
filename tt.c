@@ -1,6 +1,15 @@
 #include <stdio.h>
 
+/*    
 
+ _     ___ _   _ _   ___  __
+| |   |_ _| \ | | | | \ \/ /
+| |    | ||  \| | | | |\  /
+| |___ | || |\  | |_| |/  \
+|_____|___|_| \_|\___//_/\_\
+
+
+*/
 
 int max(int, int);
 
@@ -20,10 +29,7 @@ int max(int num1 , int num2)
 {
 	int result;
 
-	if (num1 > num2)
-		result = num1;
-	else
-		result = num2;
+	result = (num1 > num2) ? num1 : num2;
 
 	return result;
 
