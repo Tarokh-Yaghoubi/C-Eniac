@@ -144,10 +144,11 @@ int main()
 	printf("%d\n", replace_resualt);
 
 	printf("------------------\n");
+	printf("( 1 for TRUE - 0 for FALSE : ... )\n");
 
 	replace_resualt = match_finder_2(str, sub);
 
-	printf("%d\n", replace_resualt);
+	printf("\n%d\n", replace_resualt);
 
 	return 0;
 
@@ -226,18 +227,12 @@ char match_finder_2(char* str, char* sub)
 			if (j == strlen(sub))
 			{
 				flag = 1;
-				printf("\n substring found in index : %d\n", i);
 			}
+			else
+				flag = 0;
 		}
 		p1++;
 	}
-	if (flag == 0)
-	{
-		printf("Substring not found\n");
 
-	}
-	if (flag == 1)
-		return flag;	
-	else if (flag == 0)
-		return flag;
+	return flag;
 }

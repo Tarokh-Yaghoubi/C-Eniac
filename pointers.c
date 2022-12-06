@@ -1,49 +1,24 @@
 #include <stdio.h>
 
-void geeks(void);
-
-int main_2()
-{
-
-	char* ptr;
-	int size_t;
-
-	ptr = "mmdfjgndlfjknldjkfglkjdfnhlkjdnfhdflhnldfkhjdfhndfjhdlfhnldkfj";
-
-	for (;;) {
-		printf(" for executed.");
-		size_t = sprintf(ptr, "%s%s", *ptr, *ptr);
-		printf("%c", size_t);
-	}
-
-
-	return 0;
-}
-
 int main()
 {
-	geeks();
+	int x = 1;
+	int y = 1;
+	int z[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+	int* p;
+
+	p = &z[0];
+	x = *p;
+	p = &z[1];
+	
+
+	for (y = 0; y < sizeof(z) / sizeof(z[0]); y++)
+		z[y] = *p;
+
+	for (y = 0; y < sizeof(z) / sizeof(z[0]); y++)
+		printf("%d ", z[y]);
+
 
 	return 0;
-
-}
-
-void geeks()
-{
-	int var = 20;
-	int x = 30;
-	int pl;
-
-	int* ptr;
-	int* jsm;
-
-	ptr = &var;
-
-	jsm = &x;
-
-	if (*ptr + *jsm == 50)
-		printf("%d\n", (*ptr + *jsm));
-	else
-		printf("not match");
-
 }

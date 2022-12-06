@@ -1,6 +1,3 @@
-#include <stdio.h>
-
-				    
 				/*
 				 _     ___ _   _ _   ___  __
 				| |   |_ _| \ | | | | \ \/ /
@@ -95,7 +92,7 @@ const int MAX = 3;
 
 int  repeat(int* arr, int size, int number);
 char match_finder(const char* first, const char* second, int size);
-char match_finder_2(const char* str_1, const char* str_2);
+char match_finder_2(char* str, char* sub);
 void replace(int* arr, int size, int from, int to);
 
 int main()
@@ -109,11 +106,11 @@ int main()
 	char first[6] = { 'a', 'b', 'c', 'd', 'e', '\0'};
 	char second[6] = { 'o', 'r', 'p', 'z', 'f', '\0'};
 
-	char str_1[1024*20];
-	char str_2[1024];
+	char str[1024*20];
+	char sub[1024];
 
-	strcpy(str_1, "The time() function is defined in time.h (ctime in C++) header file. This function returns the time since 00:00:00 UTC, January 1, 1970 (Unix timestamp) in seconds. If second is not a null pointer, the returned value is also stored in the object pointed to by second.");
-	strcpy(str_2, "Unix timestamp");
+	strcpy(str, "The time() function is defined in time.h (ctime in C++) header file. This function returns the time since 00:00:00 UTC, January 1, 1970 (Unix timestamp) in seconds. If second is not a null pointer, the returned value is also stored in the object pointed to by second");
+	strcpy(sub, "Unix timestamp");
 
 
 
@@ -146,8 +143,9 @@ int main()
 
 	printf("%d\n", replace_resualt);
 
+	printf("------------------\n");
 
-	replace_resualt = match_finder_2(str_1, str_2);
+	replace_resualt = match_finder_2(str, sub);
 
 	printf("%d\n", replace_resualt);
 
@@ -200,15 +198,46 @@ char match_finder(const char* first, const char* second, int size)
 
 }
 
-char match_finder_2(const char* str_1, const char* str_2)
+char match_finder_2(char* str, char* sub)
 {
-	int i, j;
+	char* p1, * p2, * p3;
+	
+	int i = 0, j = 0, flag = 0;
 
-	for (i = 0, j = 0; i < strlen(str_1) && j < strlen(str_2); i++, j++)
-		while (str_1[i] != '\0')
-			i++;
-		if (str_1[i] == str_2[j])
-			return 1;
-		else
-			return 0;
-}
+	p1 = str;
+	p2 = sub;
+
+	for (i = 0; i < strlen(str); i++)
+	{
+		if (*p1 == *p2)
+		{
+			p3 = p1;
+			for (j = 0; j < strlen(sub); j++)
+			{
+				if (*p3 == *p2)
+				{
+					p3++;
+					p2++;
+				}
+				else
+					break;
+			}
+			p2 = sub;
+			if (j == strlen(sub))
+			{
+				flag = 1;
+				printf("\n substring found in index : %d \n", i);
+			}
+		}
+		p1++;
+	}
+	if (flag == 0)
+	{
+		printf("Substring not found\n");
+
+	}
+	if (flag == 1)
+		return flag;	
+	else if (flag == 0)
+		return flag;
+}	
