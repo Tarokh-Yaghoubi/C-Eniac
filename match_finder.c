@@ -41,12 +41,12 @@
 #include <time.h>
 #include <string.h>
 
- /*
+
 int* getrandom();
 
 int main_1()
 {
-	// { a pointer to an int } 
+	// { a pointer to an int }
 
 	int* p;
 
@@ -60,10 +60,8 @@ int main_1()
 	}
 	return 0;
 
-} 
+}
 
-*/
-/*
 int* getrandom()
 {
 	static int random_array[10];
@@ -80,10 +78,9 @@ int* getrandom()
 
 	return random_array;
 
-} */
+}
 
-\
-						
+
 // char change_indexes(char* first, char* second, char* last);
 
 // char change_indexes(char* first, char* second, char* last);
@@ -91,12 +88,17 @@ int* getrandom()
 const int MAX = 3;
 
 int  repeat(int* arr, int size, int number);
+double getAverage(int* arr, int size);
 char match_finder(const char* first, const char* second, int size);
 char match_finder_2(char* str, char* sub);
 void replace(int* arr, int size, int from, int to);
+void getSeconds(unsigned long *par);
 
 int main()
 {
+
+	unsigned long sec;
+	double avg;
 	int from, to;
 	int i = 0;
 	char replace_resualt;
@@ -150,6 +152,18 @@ int main()
 
 	printf("\n%d\n", replace_resualt);
 
+	printf("---------------------\n");
+
+	getSeconds(&sec);
+
+	/* print the actual value */
+
+	printf("Number of seconds : %ld\n", sec);
+
+	printf("----------------------\n");
+
+	avg = getAverage(arr, 10);
+	printf("the average of the array indexes : %.1f\n", avg);
 	return 0;
 
 }
@@ -174,9 +188,13 @@ void replace(int* arr, int size, int from, int to)
 		if (arr[i] == from)
 			arr[i] = to;
 
-	/*
+			// extra code written :)
+
+		/*
+
 		for (i = 0; i < size; i++)
-			printf("%d ", arr[i]);
+				printf("%d ", arr[i]);
+
 		*/
 
 		//	return arr;
@@ -202,7 +220,7 @@ char match_finder(const char* first, const char* second, int size)
 char match_finder_2(char* str, char* sub)
 {
 	char* p1, * p2, * p3;
-	
+
 	int i = 0, j = 0, flag = 0;
 
 	p1 = str;
@@ -235,4 +253,30 @@ char match_finder_2(char* str, char* sub)
 	}
 
 	return flag;
+}
+
+
+void getSeconds(unsigned long *par)
+{
+	/* get the current number of seconds */
+
+	*par = time( NULL );
+	return;
+
+}
+
+double getAverage(int* arr, int size)
+{
+	int i;
+	double sum, avg;
+
+	i = sum = 0;
+
+	for (i = 0; i < size; ++i)
+			sum += arr[i];
+
+	avg = (double)sum / size;
+
+	return avg;
+
 }
