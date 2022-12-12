@@ -36,5 +36,7 @@ void printInfo(IdCard* info)
 	printf("The Users Nickname is : %s\n", info->Nickname);
 	printf("The Users Address is : %s\n", info->Address);
 	printf("The Users Age is : %d\n", info->age);
+	if (info->age == 18)
+		printf("This is 18 :)\n");
 }
 
