@@ -1,57 +1,40 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Books {
-	char title[60];
-	char author[70];
-	char subject[100];
+typedef struct {
+	char Name[100];
+	char Sirname[120];
+	char Nickname[100];
+	char Address[200];
+	int age;
 
-	int book_id;
+}IdCard;
 
-} book;
-
-/* we use member access operator to access an structure */
+void printInfo(IdCard* info);
 
 
 int main()
 {
+	IdCard Id1;
+	IdCard Id2;
 
-	struct Books Book1; /* declaring Book1 of Type Book */
-	struct Books Book2; /* declaring Book2 of Type Book */
+	strcpy(Id1.Name, "Tarokh");
+	strcpy(Id1.Sirname, "Yaghoubi");
+	strcpy(Id1.Nickname, "Shelldon");
+	strcpy(Id1.Address, "London , Camden Street , after the famous garden");
+	Id1.age = 18;
 
-	/* book 1 specification */
-
-	strcpy(Book1.title, "Harry Potter");
-	strcpy(Book1.author, "JK Rowling");
-	strcpy(Book1.subject, "Novel Series");
-
-	Book1.book_id = 112233;
-
-	/* Book 2 specification */
-
-	strcpy(Book2.title, "Subtle art of not giving a fuck");
-	strcpy(Book2.author, "I dont remember");
-	strcpy(Book2.subject, "How to not give a fuck in life");
-
-	Book2.book_id = 445566;
-
-
-		
-	/* Print Book1 Information */
-
-	printf("Book 1 Title : %s\n", Book1.title);
-	printf("Book 1 Author : %s\n", Book1.author);
-	printf("Book 1 Subject : %s\n", Book1.subject);
-	printf("Book 1 ID : %d\n", Book1.book_id);
-
-	printf("----------------SECOND BOOK INFO--------------\n");
-	printf("Book 2 Title : %s\n", Book2.title);
-	printf("Book 2 Author : %s\n", Book2.author); 
-	printf("Book 2 subject : %s\n", Book2.subject); 
-	
-	printf("Book 2 ID : %d\n", Book2.book_id);
-	
+	printInfo(&Id1);
 
 	return 0;
-	
 }
+
+void printInfo(IdCard* info)
+{
+	printf("The Users name is : %s\n", info->Name);
+	printf("The Users Sirname is : %s\n", info->Sirname);
+	printf("The Users Nickname is : %s\n", info->Nickname);
+	printf("The Users Address is : %s\n", info->Address);
+	printf("The Users Age is : %d\n", info->age);
+}
+
