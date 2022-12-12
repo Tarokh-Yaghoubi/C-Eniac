@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef uint8 unsigned char;
+typedef unsigned char uint8;
+typedef unsigned int uint32;
 
 int main()
 {
