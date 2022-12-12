@@ -1,40 +1,45 @@
 #include <stdint.h>
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 
 typedef unsigned char uint8;
 typedef unsigned int uint32;
 
+
+
+typedef struct
+{
+    uint8   terminalID[9];           /** terminal ID */
+    uint8   merchantID[16];          /** merchant ID */
+    uint8	serialNumber[16];
+    uint8   marketName[50];          /** market name */
+    uint8   marketAddress[82];       /** market address */
+    uint8   helpPhone[17];
+    uint8	webSite[24 + 1];
+} merchantSpecST;
+
+typedef struct
+{
+    uint32  STAN;                    /** message number */
+    uint32  batchNumber;     		/** batch number */
+    uint8   headerLine1[24];
+    uint8   headerLine2[24];
+    uint8   footerLine[115 + 1];		//FKH 130724 changed 31 to 116
+    uint8   merchantPhone[17];
+    uint8   merchantPostCode[11];
+
+    // PC POS projects
+    uint8	settleID[17 /*460 + 1*/]; //FKH 130303 : changed 17 to 460
+    uint8	merchantInfo[24 + 1];
+} varMerchantSpecST;
+
+uint8 extractField62(uint8* field62, int len, merchantSpecST* merchantSpec, varMerchantSpecST* varMerchantSpec);
+
+
+
 int main()
 {
-
-    typedef struct
-    {
-
-        uint8   terminalID[9];           /** terminal ID */
-        uint8   merchantID[16];          /** merchant ID */
-        uint8	serialNumber[16];
-        uint8   marketName[50];          /** market name */
-        uint8   marketAddress[82];       /** market address */
-        uint8   helpPhone[17];
-        uint8	webSite[24 + 1];
-    } merchantSpecST;
-
-    typedef struct
-    {
-        uint32  STAN;                    /** message number */
-        uint32  batchNumber;     		/** batch number */
-        uint8   headerLine1[24];
-        uint8   headerLine2[24];
-        uint8   footerLine[115 + 1];		//FKH 130724 changed 31 to 116
-        uint8   merchantPhone[17];
-        uint8   merchantPostCode[11];
-
-        // PC POS projects
-        uint8	settleID[17 /*460 + 1*/]; //FKH 130303 : changed 17 to 460
-        uint8	merchantInfo[24 + 1];
-    }varMerchantSpecST;
-
 
     uint8 field62[] = {
         0x54, 0x45, 0x52, 0x4D, 0x30, 0x38, 0x32, 0x32,
@@ -54,13 +59,24 @@ int main()
         0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20,
         0x20, 0x20, 0x20, 0x20, 0x20, 0x20 };
 
-    uint8 extractField62(uint8 * field62, int len, merchantSpecST * merchantSpec, varMerchantSpecST * varMerchantSpec)
-    {
-    }
 
-    uint8 extractField62(uint8 * field62, int len, merchantSpecST * merchantSpec, varMerchantSpecST * varMerchantSpec)
-    {
-    }
+    int len = 126;
 
+    merchantSpecST merchantSpec;
+    varMerchantSpecST varMerchantSpec;
+
+    // extractField62(uint8* field62, int len, &merchantSpec, &varMerchantSpec);
+    extractField62(field62, len, &merchantSpec, &varMerchantSpec);
+   // for (int i = 0; i < 126; i++)
+     //   printf("%c ", field62[i]);
+
+    return EXIT_SUCCESS;
 
 }
+
+uint8 extractField62(uint8* field62, int len, merchantSpecST* merchantSpec, varMerchantSpecST* varMerchantSpec)
+{
+
+   // Scan The Full Hex-ByteArray
+
+} 
